@@ -1,5 +1,5 @@
 # Web-Scraping-Project-with-Python-Project
-This is a repository for a web scraping project using python, upon finishing this project the results of this project will aide me with another project where I will create a predictive model using this information to predict who the winners of the soccer matches will be in the ITALIAN SERIA A league.
+This repository contains Part 1 of a web scraping and predictive modeling project using Python. Upon completion, the results from this phase will serve as the foundation for Part 2, where I will develop a predictive model to forecast the outcomes of soccer matches in the British Premeir League.
 
 1. Download the data using a library called requests in python
 2. We will parse the data using beautiful soup which will let us extract what we need
