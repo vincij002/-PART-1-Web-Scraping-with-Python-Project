@@ -6,8 +6,8 @@ import time
 # Initialize an empty list to store all match data
 all_matches = []
 
-# URL for Serie A standings
-standings_url = "https://fbref.com/en/comps/11/Serie-A-Stats"
+# URL for Premier League standings
+standings_url = "https://fbref.com/en/comps/9/Premier-League-Stats"
 data = requests.get(standings_url)
 
 # Parse the HTML content using BeautifulSoup
@@ -94,8 +94,8 @@ for year in years:
         except ValueError:
             continue
 
-        # Filter for Serie A competition
-        team_data = team_data[team_data["Comp"] == "Serie A"]
+        # Filter for Premier League competition
+        team_data = team_data[team_data["Comp"] == "Premier League"]
 
         # Add season and team name columns
         team_data["Season"] = year
