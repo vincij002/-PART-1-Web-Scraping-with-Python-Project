@@ -51,7 +51,7 @@ team_data = matches[0].merge(
 )
 
 # Define the years to loop through
-years = list(range(2024, 2022, -1))
+years = list(range(2022, 2020, -1))
 
 # Loop through the years and extract data for each team
 for year in years:
