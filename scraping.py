@@ -97,13 +97,13 @@ for year in years:
         # Filter for Premier League competition
         team_data = team_data[team_data["Comp"] == "Premier League"]
 
-        # Add season and team name columns
-        team_data["Season"] = year
-        team_data["Team"] = team_name
+# Add season and team name columns
+team_data["Season"] = year
+team_data["Team"] = team_name
 
-        # Append the team data to the all_matches list
-        all_matches.append(team_data)
+# Append the team data to the all_matches list
+all_matches.append(team_data)
 
-        # Sleep to avoid overloading the server
-        time.sleep(1)
+# Sleep to avoid overloading the server
+time.sleep(1)
       
